@@ -12,7 +12,9 @@
 	},
 	"devDependencies": {
 		"bower": "^1.4.1",
-		"require-dir": "^0.3.0",
-		"gulp": "^3.9.0"
+		"gulp": "^3.9.0",
+		"gulp-minify-html": "^1.0.3",
+		"gulp-uglify": "^1.2.0",
+		"require-dir": "^0.3.0"
 	}
 }
