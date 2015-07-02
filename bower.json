@@ -1,0 +1,36 @@
+{
+	"name": "angular-schema-form-leaflet-field",
+	"version": "0.1.0",
+	"description": "Leaflet field add-on for schema form",
+	"authors": [
+		"Makina Corpus",
+		"Simon Prévidente <simon.previdente@free.fr>"
+	],
+	"license": "MIT",
+	"moduleType": [
+		"globals"
+	],
+	"keywords": [
+		"angular-schema-form",
+		"schema-form",
+		"form",
+		"json",
+		"json-schema",
+		"schema",
+		"add-on",
+		"leaflet",
+		"marker",
+		"map"
+	],
+	"ignore": [
+		"node_modules",
+		"bower_components",
+		"build"
+	],
+	"dependencies": {
+		"angular-schema-form": ">= 0.8"
+	},
+	"devDependencies": {
+		"angular-schema-form": ">= 0.8"
+	}
+}
