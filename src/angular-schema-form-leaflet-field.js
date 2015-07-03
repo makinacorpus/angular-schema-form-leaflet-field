@@ -31,6 +31,11 @@ angular.module("schemaForm")
 						});
 						marker.bindPopup('This marker is draggable! Move it around.');
 						marker.addTo(map);
+
+						// Event
+						marker.on('dragend', function(e) {
+							$scope.model[mapDivId] = this.getLatLng();
+						});
 					});
 				});
 			}]
