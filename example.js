@@ -39,6 +39,7 @@ exampleApp.controller("exampleController", ["$scope", function ($scope) {
 		"email",
 		{
 			"key": "adrhome",
+			"title": "Home address",
 			"type": "leafletDraggableMarker",
 			"mapLat": 48.856614,
 			"mapLng": 2.3522219000000177,
@@ -48,6 +49,7 @@ exampleApp.controller("exampleController", ["$scope", function ($scope) {
 		},
 		{
 			"key": "adrjob",
+			"title": "Work address",
 			"type": "leafletDraggableMarker",
 			"markLat": 43.60326610000001,
 			"markLng": 1.4422609000000648
